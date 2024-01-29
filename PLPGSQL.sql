@@ -93,7 +93,7 @@ SELECT * from public.peliculas_estadisticas;
 SELECT movies_stats();
 
 
-### PL/pgSQL
+---PL/pgSQL
 
 CREATE FUNCTION pgmax (a integer, b integer)
 RETURNS integer
@@ -108,7 +108,7 @@ END
 $$ LANGUAGE plpgsql;
 
 
-### PL/Python
+--- PL/Python
 
 
 CREATE FUNCTION pymax (a integer, b integer)
